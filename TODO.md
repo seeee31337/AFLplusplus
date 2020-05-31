@@ -1,5 +1,10 @@
 # TODO list for AFL++
 
+## My TODO
+ - Modify instrumentation asm code in order to take coverage info from the
+   kernel. The target must enable the coverage of the kernel runs his test and
+   updates the coverage's bitmap.
+
 ## Roadmap 2.65+
 
  - AFL_MAP_SIZE for qemu_mode and unicorn_mode
